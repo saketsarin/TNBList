@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+
+
+    <link rel="stylesheet" href="./css/utils.css">
+    <link rel="stylesheet" href="./css/searchResults.css">
+</head>
+
+<body>
+    <nav>
+        <div class="leftNav">
+            <img src="./img/logo.svg"></img>
+            <select class="countryDrop" id="countries" name="countries">
+                <option value="US">United States</option>
+                <option value="example">Example</option>
+            </select>
+        </div>
+
+        <div class="search">
+            <input type="text" class="searchBar"
+                placeholder="Home & Kitchen : Large Appliances : Washing Machines"></input>
+            <button type="submit" class="searchIcon">
+                <img src="./img/searchBtn.svg"></img>
+            </button>
+        </div>
+
+        <div class="navBtn">
+            <a href="./postAd.html" class="postAd">Post Ad</a>
+            <div class="pfp"></div>
+        </div>
+    </nav>
+
+    <section class="brief">
+        <div class="left">
+            <div class="noOfResults">1-24 of 1,156 results</div>
+            <div class="searchText">Home & Kitchen : Large Appliances : Washing Machines</div>
+        </div>
+
+        <div class="right">
+            <div class="sort">
+                <p>Sort By:</p>
+                <select class="countryDrop sortDrop" name="sortResults" id="sortResults">
+                    <option value="newPop">New & Popular</option>
+                </select>
+            </div>
+            <div class="sortBtn">
+                <button class="gridSort"><img src="./img/gridSort.svg"></button>
+                <button class="listSort"><img src="./img/listSort.svg"></button>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <div class="filters"></div>
+        <div class="results"></div>
+    </main>
+</body>
+
+</html>

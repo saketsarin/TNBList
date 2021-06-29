@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TNB List</title>
+
+    <link rel="stylesheet" href="./css/utils.css">
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="leftNav">
+            <img src="./img/logo.svg"></img>
+            <select class="countryDrop" id="countries" name="countries">
+                <option value="US">United States</option>
+                <option value="example">Example</option>
+            </select>
+        </div>
+
+        <div class="search">
+            <input type="text" class="searchBar" placeholder="Search for products, services and more..."></input>
+            <button type="submit" class="searchIcon">
+                <img src="./img/searchBtn.svg"></img>
+            </button>
+        </div>
+
+        <div class="navBtn">
+            <a href="./signup.html" class="signIn">Sign Up</a>
+            <a href="./login.html" class="signIn">Sign In</a>
+            <a href="./postAd.html" class="postAd">Post Ad</a>
+        </div>
+    </nav>
+
+    <section class="carousel">
+        <div class='slider'>
+            <input name="input-slider" id='input-slide-0' type="radio" class='input-slide input-slide-num'>
+            <input name="input-slider" id='input-slide-1' type="radio" class='input-slide input-slide-num'>
+            <input name="input-slider" id='input-slide-2' type="radio" class='input-slide input-slide-num'>
+            <input name="input-slider" id='input-slide-3' type="radio" class='input-slide input-slide-num'>
+            <input name="input-slider" id='input-slide-autoplay' type="radio" class='input-slide' checked>
+            <ul>
+                <li class='slide-0'></li>
+                <li class='slide-1'></li>
+                <li class='slide-2'></li>
+                <li class='slide-3'></li>
+            </ul>
+            <div class='slide-description'>
+                <label class='slide-0'>
+                    <h1 class="text-slide">
+                        <img src="./img/demo.svg" alt="demo">
+                    </h1>
+                </label>
+                <label class='slide-1'>
+                    <h1 class="text-slide">
+                        <img src="./img/demo.svg" alt="demo">
+                    </h1>
+                </label>
+                <label class='slide-2'>
+                    <h1 class="text-slide">
+                        <img src="./img/demo.svg" alt="demo">
+                    </h1>
+                </label>
+                <label class='slide-3'>
+                    <h1 class="text-slide">
+                        <img src="./img/demo.svg" alt="demo">
+                    </h1>
+                </label>
+            </div>
+            <div class='slider-arrow-prev'>
+                <label class='slide-0' for='input-slide-0'></label>
+                <label class='slide-1' for='input-slide-1'></label>
+                <label class='slide-2' for='input-slide-2'></label>
+                <label class='slide-3' for='input-slide-3'></label>
+            </div>
+            <div class='slider-arrow-next'>
+                <label class='slide-0' for='input-slide-0'></label>
+                <label class='slide-1' for='input-slide-1'></label>
+                <label class='slide-2' for='input-slide-2'></label>
+                <label class='slide-3' for='input-slide-3'></label>
+            </div>
+            <div class='slider-dot'>
+                <label class='slide-0' for='input-slide-0'></label>
+                <label class='slide-1' for='input-slide-1'></label>
+                <label class='slide-2' for='input-slide-2'></label>
+                <label class='slide-3' for='input-slide-3'></label>
+            </div>
+        </div>
+    </section>
+
+    <div class="recentAds">
+        <div class="recentTitle">Recent Ads</div>
+        <div class="ads">
+
+            <div class="ad">
+                <img src="./img/tv.svg">
+                <div class="adContent">
+                    <div class="adTitle">First item for sale</div>
+                    <div class="adDesc">
+                        All of this is just some randomly written item description for an item for sale. All of this is
+                        just
+                        some randomly written item description for an item for sale
+                    </div>
+                    <div class="adPrice">25 TNBC</div>
+                </div>
+                <a href="#" class="adBtn">Purchase</a>
+            </div>
+
+            <div class="ad">
+                <img src="./img/tv.svg">
+                <div class="adContent">
+                    <div class="adTitle">Second item for sale</div>
+                    <div class="adDesc">
+                        All of this is just some randomly written item description for an item for sale. All of this is
+                        just
+                        some randomly written item description for an item for sale
+                    </div>
+                    <div class="adPrice">125 TNBC</div>
+                </div>
+                <a href="#" class="adBtn">Purchase</a>
+            </div>
+
+            <div class="ad">
+                <img src="./img/tv.svg">
+                <div class="adContent">
+                    <div class="adTitle">Third item for sale</div>
+                    <div class="adDesc">
+                        All of this is just some randomly written item description for an item for sale. All of this is
+                        just
+                        some randomly written item description for an item for sale
+                    </div>
+                    <div class="adPrice">49 TNBC</div>
+                </div>
+                <a href="#" class="adBtn">Purchase</a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="howItWorks">
+        <div class="howTitle">How it works ?</div>
+        <div class="steps">
+
+            <div class="step">
+                <img src="./img/stepImg.svg">
+                <div class="stepContainer">
+                    <div class="stepHead">Step 1</div>
+                    <div class="stepDesc">
+                        This is just an example text for the description of the working of a step.
+                        This is just an example text for the description of the working of a step.
+                    </div>
+                </div>
+            </div>
+            <div class="stepDivider">
+                <img src="./img/div1.svg">
+            </div>
+            <div class="step right">
+                <div class="stepContainer">
+                    <div class="stepHead">Step 2</div>
+                    <div class="stepDesc">
+                        This is just an example text for the description of the working of a step.
+                        This is just an example text for the description of the working of a step.
+                    </div>
+                </div>
+                <img src="./img/stepImg.svg">
+            </div>
+            <div class="stepDivider">
+                <img src="./img/div2.svg">
+            </div>
+            <div class="step">
+                <img src="./img/stepImg.svg">
+                <div class="stepContainer">
+                    <div class="stepHead">Step 3</div>
+                    <div class="stepDesc">
+                        This is just an example text for the description of the working of a step.
+                        This is just an example text for the description of the working of a step.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footerLeft">
+            <h1 class="footerLogo">TNBList</h1>
+            <h2>Contact</h2>
+            <address>
+                5534 Somewhere In. The World 22193-10212<br>
+                <a class="footerBtn" href="mailto:example@gmail.com">Email Us</a>
+            </address>
+        </div>
+
+        <ul class="footerNav">
+            <li class="navItem">
+                <h2 class="navTitle">Media</h2>
+                <ul class="navUl">
+                    <li>
+                        <a href="#">Online</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Print</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Alternative Ads</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="navItem navItemExtra">
+                <h2 class="navTitle">Technology</h2>
+                <ul class="navUl navUlExtra">
+                    <li>
+                        <a href="#">Hardware Design</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Software Design</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Digital Signage</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Automation</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Artificial Intelligence</a>
+                    </li>
+
+                    <li>
+                        <a href="#">IoT</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="navItem">
+                <h2 class="navTitle">Legal</h2>
+                <ul class="navUl">
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Terms of Use</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Sitemap</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="legal">
+            <p>&copy; 2021 TNBList. All rights reserved.</p>
+
+            <div class="legalLinks">
+                <span>Made with <span class="heart">♥</span> by Someone</span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+* {
+  font-family: "Open Sans";
+}
+
+body {
+  overflow: hidden;
+}
+
+main {
+  background-color: #ff7777;
+  width: 100vw;
+  height: 88vh;
+  display: flex;
+}
+
+.container {
+  width: 1220px;
+  height: 525px;
+  background-color: #faf9f9;
+  border-radius: 25px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+}
+
+.heading {
+  font-weight: 900;
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+  letter-spacing: 1px;
+  font-size: 40px;
+  color: #000000;
+  padding: 30px 0 10px 0;
+}
+
+.sign {
+  font-weight: 500;
+  font-size: 15px;
+  color: #b0b4b9;
+  padding-bottom: 15px;
+}
+
+.sign a {
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--red);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 15px;
+  padding: 10px 0;
+}
+
+input {
+  width: 33vw;
+  padding: 10px;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 8px;
+  outline: none;
+}
+
+.forgot {
+  align-self: flex-end;
+  padding: 8px;
+  font-size: 14px;
+  color: #61656d;
+  text-decoration: none;
+}
+
+.forgot:hover {
+  color: #000;
+}
+
+button {
+  align-self: center;
+  width: 60%;
+  padding: 12px;
+  border-radius: 10px;
+  margin: 15px 0;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: 0.3s ease-in;
+  transform: translateY(-3px);
+}
+
+.login {
+  background-color: var(--red);
+  color: white;
+  border: none;
+}
+
+.orContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  height: 0.8px;
+  width: 100px;
+  background-color: #b0b4b9;
+}
+
+.or {
+  color: #b0b4b9;
+  padding: 0 10px;
+}
+
+.signTnb {
+  background-color: white;
+  color: var(--red);
+  border: 1.5px solid var(--red);
+}
+
+.signTnb:hover {
+  background-color: var(--red);
+  color: white;
+  transform: none;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+
+    <link rel="stylesheet" href="./css/utils.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+    <nav>
+        <div class="leftNav">
+            <img src="./img/logo.svg"></img>
+            <select class="countryDrop" id="countries" name="countries">
+                <option value="US">United States</option>
+                <option value="example">Example</option>
+            </select>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <img src="./img/login.svg" class="left">
+
+            <div class="right">
+                <div class="heading">Are you ready?</div>
+
+                <div class="sign">Don't have an account? <a href="./signup.html">Sign Up</a></div>
+
+                <form action="#">
+                    <label for="email">Email or Phone Number</label>
+                    <input type="text" name="email" id="email"></input>
+
+                    <label for="pass">Password</label>
+                    <input type="password" name="pass" id="pass"></input>
+
+                    <a href="#" class="forgot">Forgot Password?</a>
+
+                    <button type="submit" class="login">Login</button>
+                    <div class="orContainer">
+                        <div class="line"></div>
+                        <div class="or">or</div>
+                        <div class="line"></div>
+                    </div>
+                    <button type="submit" class="signTnb">Sign In with TheNewBoston</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
