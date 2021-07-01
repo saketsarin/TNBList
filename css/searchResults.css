@@ -1,3 +1,11 @@
+html {
+  background-color: #f9f9f9;
+}
+
+nav {
+  background-color: white;
+}
+
 .search {
   display: flex;
   align-items: center;
@@ -64,7 +72,7 @@
 .brief {
   margin: 15px;
   padding: 5px 10px;
-  background: linear-gradient(180deg, #ffffff 0%, #ffffff00 100%);
+  background: linear-gradient(180deg, #ffffff 50%, #e5e5e5 100%);
   border: 1px solid #353535;
   border-radius: 8px;
   display: flex;
@@ -77,4 +85,187 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.noOfResults {
+  color: #84888f;
+  padding-right: 20px;
+}
+
+.searchText {
+  color: #2e2b2c;
+}
+
+.sortBtns {
+  padding-left: 30px;
+}
+
+.sortBtn {
+  background: transparent;
+  border: none;
+  border-radius: 10px;
+  padding: 4px 6px;
+  margin: 0px 10px;
+}
+
+.sortBtn:hover,
+.sortBtn:focus {
+  background-color: rgb(243, 243, 243);
+  border: 1px solid var(--red);
+  padding: 3px 5px;
+}
+
+main {
+  display: flex;
+}
+
+.filters {
+  margin-left: 15px;
+  max-height: 525px;
+  min-width: 250px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid var(--red);
+}
+
+.filterHead {
+  padding: 8px;
+  box-shadow: 0px 2px 4px #f59696;
+  text-align: center;
+  font-size: 23px;
+}
+
+.filterTxt {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Open Sans";
+  padding: 7px 10px;
+}
+
+.categories ul,
+.brands ul {
+  list-style: none;
+}
+
+.categories ul li,
+.brands ul li {
+  padding: 2px 10px;
+}
+
+.categories ul li a,
+.brands ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+}
+
+.categories ul li a:hover,
+.brands ul li a:hover {
+  color: var(--red);
+}
+
+.priceSlider {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0px 30px 10px 30px;
+  width: 80%;
+  height: 5px;
+  border-radius: 10px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.priceSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+  background: var(--red);
+  cursor: pointer;
+}
+
+.priceDrop {
+  margin: 3px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.priceDrop select {
+  cursor: pointer;
+  padding: 2px;
+  border-radius: 5px;
+  border-color: var(--red);
+}
+
+.colorOption {
+  padding: 0px 10px;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 50px;
+}
+
+.item {
+  margin-right: 50px;
+  margin-bottom: 30px;
+  max-width: 238px;
+  max-height: 250px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 4px 1px #79889740;
+}
+
+.itemTop {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 10px -12px 10px;
+}
+
+.name {
+  font-family: "Open Sans";
+}
+
+.itemTop button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.adContent {
+  padding: 0 10px;
+  margin-top: -20px;
+}
+.adTitle {
+  font-size: 14px;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.adPrice {
+  padding: 3px 0;
+  font-size: 16px;
+  font-family: "Roboto Slab";
+  font-weight: bold;
+}
+
+.adBtn {
+  display: inline-block;
+  margin-top: 3px;
+  padding: 9px 84px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: var(--blue);
+  font-family: "Roboto Slab";
+  text-decoration: none;
+  color: white;
+}
+
+.adBtn:hover {
+  box-shadow: 3px 3px 4px rgba(121, 136, 151, 0.5);
 }
