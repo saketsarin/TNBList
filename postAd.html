@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Ad</title>
+
+    <link rel="stylesheet" href="./css/utils.css">
+    <link rel="stylesheet" href="./css/postAd.css">
+
+</head>
+
+<body>
+    <nav>
+        <div class="leftNav">
+            <img src="./img/logo.svg"></img>
+            <select class="countryDrop" id="countries" name="countries">
+                <option value="US">United States</option>
+                <option value="example">Example</option>
+            </select>
+        </div>
+
+        <div class="search">
+            <input type="text" class="searchBar"
+                placeholder="Home & Kitchen : Large Appliances : Washing Machines"></input>
+            <button type="submit" class="searchIcon">
+                <img src="./img/searchBtn.svg"></img>
+            </button>
+        </div>
+
+        <div class="navBtn">
+            <div class="pfp"></div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="heading">Post your Ad</div>
+        <div class="mid">
+            <form action="#">
+                <div class="left">
+                    <div class="nameContainer">
+                        <label for="name">Item Name</label>
+                        <input class="name=" type="text" name="name" id="name">
+                    </div>
+                    <div class="descContainer">
+                        <label for="desc">Item Description</label>
+                        <textarea name="desc" id="desc" cols="50" rows="6"></textarea>
+                    </div>
+                    <div class="photos">
+                        <div class="photoHead">Item Photos</div>
+                        <div class="photoBox">
+                            <input class="photoInput" type="file" multiple>
+                            <p class="photoTxt">Drag your files here or click in this area.</p>
+                        </div>
+                    </div>
+                    <div class="physicalItem">
+                        <div class="toggle"></div>
+                        Physical item
+                    </div>
+                    <div class="bottom">
+                        <div class="category">
+                            <label for="category">Item Category</label>
+                            <select name="category" id="category">
+                                <option value="category">Category</option>
+                            </select>
+                        </div>
+                        <div class="price">
+                            <label for="price">Item Price</label>
+                            <input type="number" name="price" id="price" placeholder="0">
+                        </div>
+                        <div class="nego">
+                            <div class="toggle"></div>
+                            Negotiable
+                        </div>
+                    </div>
+                    <div class="captcha">
+
+                    </div>
+                </div>
+                <div class="right">
+                    <img src="./img/postAd.svg" alt="Post your Ad">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

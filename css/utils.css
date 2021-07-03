@@ -63,3 +63,7 @@ nav {
   background-position-x: 96px;
   background-position-y: 10px;
 }
+
+a:visited {
+  text-decoration: none;
+}
